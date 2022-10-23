@@ -65,8 +65,8 @@ def construct_master_list(row_count):
 def create_csv_data():
         construct_master_list(500)
         #A simple header for the file
-        header = ['first name',
-                  'last name', 
+        header = ['firstname',
+                  'lastname', 
                   'address'
                   ]
         

@@ -44,8 +44,10 @@ def rogue_data(lst):
 #### MASTER_LIST_CONSTRUCTOR #####
 
 def construct_master_list(row_count):
+    
     for _ in range(1, row_count):
         row = []
+        
 
         
 
@@ -61,7 +63,7 @@ def construct_master_list(row_count):
 
         master_list.append(row)
 def create_csv_data():
-        construct_master_list()
+        construct_master_list(500)
         #A simple header for the file
         header = ['first name',
                   'last name', 
